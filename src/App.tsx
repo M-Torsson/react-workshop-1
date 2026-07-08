@@ -1,5 +1,6 @@
 import Header from "./components/layout/Header";
 import SidebarFilters from "./components/layout/SidebarFilters";
+import ProductGrid from "./components/product/ProductGrid";
 
 function App() {
     return (
@@ -15,6 +16,8 @@ function App() {
                             <h1 className="text-xl font-bold text-slate-900">
                                 Recommended for you
                             </h1>
+
+                            <ProductGrid />
                         </div>
                     </section>
                 </div>
