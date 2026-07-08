@@ -1,6 +1,9 @@
 import Header from "./components/layout/Header";
 import SidebarFilters from "./components/layout/SidebarFilters";
+import Newsletter from "./components/layout/Newsletter";
+import Footer from "./components/layout/Footer";
 import ProductGrid from "./components/product/ProductGrid";
+import Pagination from "./components/product/Pagination";
 
 function App() {
     return (
@@ -18,10 +21,14 @@ function App() {
                             </h1>
 
                             <ProductGrid />
+                            <Pagination />
                         </div>
                     </section>
                 </div>
             </main>
+
+            <Newsletter />
+            <Footer />
         </>
     );
 }
